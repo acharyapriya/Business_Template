@@ -12,6 +12,8 @@ const Navbar: React.FC = () => {
         {/* Brand or Logo */}
         <a className="navbar-brand" href="#">MyBrand</a>
 
+
+
         {/* Toggler button for mobile */}
         <button
           className="navbar-toggler"
