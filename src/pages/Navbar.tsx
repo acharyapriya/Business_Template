@@ -2,7 +2,7 @@ import React from "react";
 import navbarLinks from "../component/json/JsonStructure.json";
 
 const Navbar: React.FC = () => {
-  const handleClick = (action: string) => {
+  const handleClick = () => {
     // handle navigation or other logic here
   };
 
@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
               <li className="nav-item" key={index}>
                 <button
                   className={`nav-link btn btn-link ${link.type === "active" ? "active" : ""}`}
-                  onClick={() => handleClick(link.action)}
+                  onClick={() => handleClick()}
                   style={{ color: "#bfbfbf" }}
                 >
                   {link.name}

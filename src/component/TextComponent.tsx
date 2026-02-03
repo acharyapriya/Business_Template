@@ -1,5 +1,3 @@
-import React from "react";
-
 const TextComponent = (props: any) => {
   const { label, className, placeholder = " ", ...inputProps } = props;
 
