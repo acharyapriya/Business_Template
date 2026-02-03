@@ -1,0 +1,86 @@
+{
+  "menu": [
+    { "name": "Home", "type": "active", "action": "home" },
+    { "name": "About", "type": "", "action": "about" },
+    { "name": "Contact", "type": "", "action": "contact" },
+    { "name": "Service", "type": "disabled", "action": "service" }
+  ],
+  "content": 
+  [
+    {
+    "featuredTitle": "Featured title",
+    "description": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+    "callToAction": "Call to action"
+  },
+  {
+    "featuredTitle": "Featured title",
+    "description": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+    "callToAction": "Call to action"
+  },
+  {
+    "featuredTitle": "Featured title",
+    "description": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+    "callToAction": "Call to action"
+  }
+]
+,
+ 
+  "pricingHeader": {
+    "title": "Pay as you grow",
+    "subtitle": "With our no hassle pricing plans"
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "price": "$0 / mo.",
+      "features": [
+        "1 user",
+        "5GB storage",
+        "Unlimited public projects",
+        "Community access",
+        "Unlimited private projects",
+        "Dedicated support",
+        "Free linked domain",
+        "Monthly status reports"
+      ],
+      "cta": "Sign Up"
+    },
+    {
+      "name": "Pro",
+      "price": "$15 / mo.",
+      "features": [
+        "10 users",
+        "50GB storage",
+        "Unlimited public projects",
+        "Community access",
+        "Unlimited private projects",
+        "Priority support",
+        "Custom domain",
+        "Monthly status reports"
+      ],
+      "cta": "Buy Now"
+    },
+    {
+      "name": "Enterprise",
+      "price": "$29 / mo.",
+      "features": [
+        "Unlimited users",
+        "150GB storage",
+        "Unlimited public projects",
+        "Community access",
+        "Unlimited private projects",
+        "Dedicated support",
+        "Custom domain",
+        "Advanced analytics & reports"
+      ],
+      "cta": "Contact Sales"
+    }
+  ]
+
+
+
+
+}
+
+
+
