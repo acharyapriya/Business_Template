@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/acharyapriya/Business_Template.git",
+ "homepage": "https://acharyapriya.github.io/business-website"
+,
 
   "scripts": {
     "dev": "vite",
