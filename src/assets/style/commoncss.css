@@ -1,129 +1,129 @@
-
-body, html {
+body,
+html {
   margin: 0 !important;
   padding: 0 !important;
 
 }
 
-.full-width-section {
-     
-  background-color: #f8f9fa;
-  /* padding: 50px 20px; */
-  box-sizing: border-box; 
-  text-align: center;
-}
-
 /* //////////////////navabar */
-.navbar_header
-{
-    background-color: black;
-   
-}
-.nav-link.btn.btn-link {
-  color: #bfbfbf;         
-  transition: color 0.3s;
+.navbar_header {
+  background-color: black;
+
+
 }
 
-.nav-link.btn.btn-link:hover {
-  color: #fff;     
+.navbar-toggler {
+  background-color: white;
+  border: none;
 }
-.nav-item:hover{
-   color: #fff;     
+
+.custom-nav-btn {
+  color: white !important;
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
+
+.custom-nav-btn:hover {
+  color: #868275 !important;
+}
+
+
+.custom-nav-btn:focus,
+.custom-nav-btn {
+  color: white !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 
 
 /* //////////////////Home */
-.homeContent
-{
-    background-color: #000000;
+.homeContent {
+  background-color: #000000;
 }
-.display-4
-{
-   font-size: clamp(1.75rem, 4vw, 2.5rem);
+
+.display-4 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
 }
+
 .homeContent h1 {
-          font-size: clamp(1.75rem, 4vw, 2.5rem);
-          font-weight: 700;
-        }
-
-        .homeContent p {
-          font-size: clamp(1rem, 2vw, 1.25rem);
-          color: #555;
-        }
-
-        .buttonCommon {
-          min-width: 160px;
-          border-radius: 8px;
-          font-weight: 600;
-        }
-
-        @media (max-width: 576px) {
-          .homeContent {
-            padding: 0 10px;
-          }
-        }
-
-
-
-.fontCommon h1
-{
-     font-size: 40px;
-     font-weight: 600;
-     color:#fff
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
 }
-.fontCommon p
-{
-    font-size: 16px;
-     color:#fff
+
+.homeContent p {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: #555;
 }
-.homeContent
-{
-   
-     width:650px;
-     margin: 0 auto;
-      padding: 50px 20px; 
-     /* text-align: center"  */
+
+.buttonCommon {
+  min-width: 160px;
+  border-radius: 8px;
+  font-weight: 600;
 }
+
+@media (max-width: 576px) {
+  .homeContent {
+    padding: 0 10px;
+  }
+}
+
+.fontCommon h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff
+}
+
+.fontCommon p {
+  font-size: 16px;
+  color: #fff
+}
+
+.homeContent {
+
+  width: 650px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  /* text-align: center"  */
+}
+
 .btn.buttonCommon {
   font-size: 20px;
 }
-.btn.learmore
-{
-    color:black
-}
 
+.btn.learmore {
+  color: black
+}
 
 /* ////////////////////content */
 
 .feature-card {
-  border: none!important;       
-  box-shadow: none; 
-  background-color: transparent; 
+  border: none !important;
+  box-shadow: none;
+  background-color: transparent;
 }
 
-/* Card title styling */
 .feature-title {
-  font-weight: 700;   
-  color: #1f2937;    
+  font-weight: 700;
+  color: #1f2937;
   font-size: 1.75rem;
   margin-bottom: 0.75rem;
 }
 
-/* Card description */
 .feature-description {
-  color: #1f2937;       /* gray text */
+  color: #1f2937;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
 
-/* CTA */
 .feature-cta {
   color: #2563eb;
   font-weight: 500;
   cursor: pointer;
   display: inline-flex;
-  /* align-items: center; */
   gap: 0.25rem;
   transition: color 0.2s ease, transform 0.2s ease;
 }
@@ -132,11 +132,12 @@ body, html {
   color: #1d4ed8;
   transform: translateX(4px);
 }
+
 /* ///////////////////price */
-.priceCard
-{
+.priceCard {
   background-color: #f2f2f2;
 }
+
 /* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Archivo+Black&display=swap'); */
 
 :root {
@@ -167,17 +168,16 @@ body, html {
   font-family: 'Archivo Black', sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
-  color: var(--text-dark);
+
   letter-spacing: -0.02em;
   margin-bottom: 1rem;
-  animation: fadeInDown 0.8s ease-out;
 }
 
 .pricing-subtitle {
   font-size: 1.25rem;
   color: var(--text-muted);
   font-weight: 400;
-  animation: fadeInUp 0.8s ease-out 0.2s backwards;
+
 }
 
 .pricing-card {
@@ -201,9 +201,8 @@ body, html {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(#667eea 0%, #764ba2);
   opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .pricing-card:hover {
@@ -231,13 +230,12 @@ body, html {
 .pricing-card-highlighted {
   border-color: var(--primary-color);
   box-shadow: 0 10px 40px rgba(13, 110, 253, 0.2);
-  transform: scale(1.02);
-  background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+
 }
 
 .pricing-card-highlighted::before {
   opacity: 1;
-  background: linear-gradient(90deg, var(--primary-color) 0%, #0056b3 100%);
+  background: linear-gradient(var(--primary-color) 0%, #0056b3 100%);
 }
 
 .pricing-card-highlighted:hover {
@@ -292,7 +290,7 @@ body, html {
 }
 
 .pricing-features {
-  flex-grow: 1;
+
   margin-bottom: 2rem;
 }
 
@@ -301,7 +299,7 @@ body, html {
   align-items: flex-start;
   padding: 0.75rem 0;
   gap: 0.75rem;
-  transition: transform 0.2s ease;
+
 }
 
 .pricing-card:hover .pricing-feature {
@@ -338,16 +336,7 @@ body, html {
   line-height: 1.5;
 }
 
-.pricing-cta {
-  padding: 0.875rem 2rem;
-  font-size: 1rem;
-  font-weight: 600;
-  border-radius: 12px;
-  border: 2px solid var(--primary-color);
-  transition: all 0.3s ease;
-  text-transform: none;
-  letter-spacing: 0.01em;
-}
+
 
 .btn-outline-primary {
   color: var(--primary-color);
@@ -374,46 +363,17 @@ body, html {
   box-shadow: 0 8px 20px rgba(13, 110, 253, 0.4);
 }
 
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-}
 
 @media (max-width: 991px) {
   .pricing-title {
     font-size: 2.5rem;
   }
-  
+
   .amount {
     font-size: 3rem;
   }
-  
+
   .pricing-card-highlighted {
     transform: scale(1);
   }
@@ -423,159 +383,159 @@ body, html {
   .pricing-section {
     padding: 60px 15px;
   }
-  
+
   .pricing-title {
     font-size: 2rem;
   }
-  
+
   .pricing-subtitle {
     font-size: 1rem;
   }
-  
+
   .pricing-card {
     padding: 2rem 1.5rem;
   }
 }
+
 /* 
 ///////////////////Testimonial */
-       .testimonials-section {
-          background-color: #f8f9fa;
-          padding:60px;
-          display: flex;
-          align-items: center;
-        }
+.testimonials-section {
+  background-color: #f8f9fa;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+}
 
-        .testimonials-title {
-          font-size: 2.5rem;
-          font-weight: 700;
-          color: #212529;
-          margin-bottom: 0.5rem;
-        }
+.testimonials-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 0.5rem;
+}
 
-        .testimonials-subtitle {
-          font-size: 1.1rem;
-          color: #6c757d;
-        }
+.testimonials-subtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
 
-        .testimonial-card {
-          background: white;
-          border-radius: 8px;
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+.testimonial-card {
+  background: white;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-        .testimonial-card:hover {
-          transform: translateY(-5px);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-        }
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
 
-        .quote-icon {
-          width: 40px;
-          height: 40px;
-        }
+.quote-icon {
+  width: 40px;
+  height: 40px;
+}
 
-        .testimonial-content {
-          flex: 1;
-        }
+.testimonial-content {
+  flex: 1;
+}
 
-        .card-text {
-          line-height: 1.6;
-          color: #495057;
-          font-size: 1rem;
-        }
+.card-text {
+  line-height: 1.6;
+  color: #495057;
+  font-size: 1rem;
+}
+
 /* ///////////////////conatct */
 .contact-section {
-          min-height: 100vh;
-         
-          display: flex;
-          align-items: center;
-          padding: 60px 20px;
-        }
+  min-height: 100vh;
 
-        .icon-wrapper {
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          width: 72px;
-          height: 72px;
-          background: linear-gradient(135deg, #5A9FE8 0%, #4A90E2 100%);
-          border-radius: 16px;
-          box-shadow: 0 8px 16px rgba(74, 144, 226, 0.25);
-        }
+  display: flex;
+  align-items: center;
+  padding: 60px 20px;
+}
 
-        .contact-title {
-          font-size: 2.5rem;
-          font-weight: 700;
-          color: #212529;
-          margin-bottom: 0.5rem;
-        }
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
 
-        .contact-subtitle {
-          font-size: 1.1rem;
-          color: #6c757d;
-          margin-bottom: 0;
-        }
+}
 
-        .contact-form-wrapper {
-          background: white;
-          padding: 0;
-        }
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 0.5rem;
+}
 
-        .form-control {
-          border: 1px solid #dee2e6;
-          border-radius: 8px;
-          padding: 0.875rem 1rem;
-          font-size: 1rem;
-          transition: all 0.3s ease;
-        }
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 0;
+}
 
-        .form-control:focus {
-          border-color: #4A90E2;
-          box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.15);
-          outline: none;
-        }
+.contact-form-wrapper {
+  background: white;
+  padding: 0;
+}
 
-        .form-control::placeholder {
-          color: #6c757d;
-        }
+.form-control {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 0.875rem 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
 
-        textarea.form-control {
-          resize: vertical;
-          min-height: 150px;
-        }
+.form-control:focus {
+  border-color: #4A90E2;
+  box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.15);
+  outline: none;
+}
 
-        .submit-btn {
-          background: linear-gradient(135deg, #5A9FE8 0%, #4A90E2 100%);
-          border: none;
-          border-radius: 8px;
-          padding: 1rem;
-          font-size: 1.1rem;
-          font-weight: 600;
-          text-transform: capitalize;
-          transition: all 0.3s ease;
-          box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
-        }
+.form-control::placeholder {
+  color: #6c757d;
+}
 
-        .submit-btn:hover {
-          background: linear-gradient(135deg, #4A90E2 0%, #3A7FC8 100%);
-          transform: translateY(-2px);
-          box-shadow: 0 6px 16px rgba(74, 144, 226, 0.4);
-        }
+textarea.form-control {
+  resize: vertical;
+  min-height: 150px;
+}
 
-        .submit-btn:active {
-          transform: translateY(0);
-        }
+.submit-btn {
+  background: linear-gradient(135deg, #5A9FE8 0%, #4A90E2 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+}
 
-        @media (max-width: 768px) {
-          .contact-title {
-            font-size: 2rem;
-          }
+.submit-btn:hover {
+  background: linear-gradient(135deg, #4A90E2 0%, #3A7FC8 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(74, 144, 226, 0.4);
+}
 
-          .icon-wrapper {
-            width: 64px;
-            height: 64px;
-          }
+.submit-btn:active {
+  transform: translateY(0);
+}
 
-          .contact-section {
-            padding: 40px 20px;
-          }
-        }
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .icon-wrapper {
+    width: 64px;
+    height: 64px;
+  }
+
+  .contact-section {
+    padding: 40px 20px;
+  }
+}

@@ -4,7 +4,7 @@ import data from "../component/json/JsonStructure.json";
 const CardContent = () => {
   return (
     <section className="features-section container my-5">
-      <div className="row">
+      <div id="about" className="row">
         {data.content.map((item, index) => (
           <div className="col-12 col-md-4 " key={index}>
             <div className="card feature-card p-4 h-100">

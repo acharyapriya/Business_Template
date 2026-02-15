@@ -1,9 +1,9 @@
 {
   "menu": [
-    { "name": "Home", "type": "active", "action": "home" },
-    { "name": "About", "type": "", "action": "about" },
-    { "name": "Contact", "type": "", "action": "contact" },
-    { "name": "Service", "type": "disabled", "action": "service" }
+    { "name": "Home", "id":"home" },
+    { "name": "About", "id":"about" },
+    { "name": "Contact","id":"contact" },
+    { "name": "Service","id":"service" }
   ],
   "content": 
   [

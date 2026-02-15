@@ -15,11 +15,7 @@ const BuisneesPage = () => {
       <Testimonials/>
       <Contact/>
   </>
-    
-    
-    
-
-   
+  
   )
 }
 

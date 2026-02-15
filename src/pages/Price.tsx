@@ -69,13 +69,13 @@ const PricingSection: React.FC = () => {
 
   return (
     <section className="pricing-section">
-      <div className="container">
+      <div id="service" className="container">
         <div className="text-center mb-5">
           <h1 className="pricing-title">Pay as you grow</h1>
           <p className="pricing-subtitle">With our no hassle pricing plans</p>
         </div>
 
-        <div className="row g-4">
+        <div className="row ">
           {pricingTiers.map((tier, index) => (
             <div key={index} className="col-lg-4 col-md-6">
               <div className={`pricing-card ${tier.highlighted ? 'pricing-card-highlighted' : ''}`}>

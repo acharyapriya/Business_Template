@@ -1,20 +1,25 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import navbarLinks from "../component/json/JsonStructure.json";
+import Button from "../component/Button";
 
 const Navbar: React.FC = () => {
-  const handleClick = () => {
-    // handle navigation or other logic here
+ 
+
+  const handleClick = (id: string) => {
+  const section = document.getElementById(id);
+
+    section?.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light navbar_header">
+    <nav className=" navbar navbar-expand-lg navbar-light  " style={{background:"black"}}>
       <div className="container-fluid">
-        {/* Brand or Logo */}
-        <a className="navbar-brand" href="#">MyBrand</a>
-
-
-
-        {/* Toggler button for mobile */}
+      
         <button
           className="navbar-toggler"
           type="button"
@@ -23,22 +28,18 @@ const Navbar: React.FC = () => {
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+         
+         
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon" ></span>
         </button>
-
-        {/* Collapsible menu */}
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul className="navbar-nav">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
             {navbarLinks?.menu.map((link, index) => (
-              <li className="nav-item" key={index}>
-                <button
-                  className={`nav-link btn btn-link ${link.type === "active" ? "active" : ""}`}
-                  onClick={() => handleClick()}
-                  style={{ color: "#bfbfbf" }}
-                >
-                  {link.name}
-                </button>
+              <li className="nav-item" key={index} >
+                <Button className="nav-link btn btn-link custom-nav-btn"  onClick={() => handleClick(link.id)} text={link.name}>
+                  
+                </Button>
               </li>
             ))}
           </ul>

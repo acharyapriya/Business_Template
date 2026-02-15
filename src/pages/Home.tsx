@@ -3,7 +3,7 @@ import ButtonCompo from "../component/Button";
 const Home = () => {
   return (
   <section className="py-5 homeContent d-flex align-items-center w-100">
-  <div className="container text-center w-50 text-white">
+  <div id="home" className="container text-center w-50 text-white">
     <h1 className="display-4 fw-bold mb-3">
       Present your business in a whole new way
     </h1>
